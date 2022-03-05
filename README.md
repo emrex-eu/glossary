@@ -16,9 +16,9 @@ Defined terminology in EMREX
 EMREX term | Type | Definition
 -----------|------|-----------
 EMREX Network | Technical | A network of countries and institutions that can share results
-SMP | Technical | Student Mobility Plugin - A library of helpful methods to help countries joining the network; countries can use methods in this library to onnect to EMREG, validate ELMO and signatures, create requests to NCP and validate the student EMREX Client | Technical | A client in the network is an application that fetches results for a student. This application is typically part of an institutions student web sites.
-NCP | Techncal | National Contact Point - This is the clients access point to a country's results. This can either be a national application that has access to all of the country's data, or an application that can delegate to other applications. The word "national" here is not required to mean a country, it can also be a part of a country.
-EMREG | Technical | Registry of NCP's that participate in the EMREX network
+EMC | Technical | EMREX Client - A library of helpful methods to help countries joining the network; countries can use methods in this library to onnect to EMREG, validate ELMO and signatures, create requests to EMP and validate the student EMREX Client | Technical | A client in the network is an application that fetches results for a student. This application is typically part of an institutions student web sites.
+EMP | Techncal | EMREX Contact Point - This is the clients access point to students results. This can either be a national application that has access to all of the country's data, or an institutinal contact point which provides data only for that institution.
+EMREG | Technical | Registry of EMP's that participate in the EMREX network. Part of the EWP (Erasmus Without Paper) registry.
 Public Key | Technical | The public part of the SSH key pair. See https://en.wikipedia.org/wiki/Key_(cryptography)
 Private Key | Technical | The private part of the SSH key pair. See https://en.wikipedia.org/wiki/Key_(cryptography)
 Certificate | Technical | An electronic document used to prove the ownership of a public key
